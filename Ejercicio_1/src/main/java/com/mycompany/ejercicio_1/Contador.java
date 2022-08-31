@@ -2,7 +2,7 @@
 package com.mycompany.ejercicio_1;
 public class Contador {
    
-    float cuenta;
+    private float cuenta;
     
     //Constructor con parametros
     public Contador(float cuenta) {
@@ -29,7 +29,5 @@ public class Contador {
     public void decrementarCuenta() {
         this.cuenta = this.cuenta--;
     }
-    
-    
     
 }
