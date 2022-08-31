@@ -22,4 +22,14 @@ public class Contador {
         return this.cuenta;
     }
     
+    public void aumentarCuenta() {
+        this.cuenta = this.cuenta++;
+    }
+    
+    public void decrementarCuenta() {
+        this.cuenta = this.cuenta--;
+    }
+    
+    
+    
 }
