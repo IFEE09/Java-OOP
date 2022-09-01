@@ -2,20 +2,20 @@
 package com.mycompany.ejercicio_1;
 public class Contador {
    
-    private float cuenta;
+    private float cuenta = 0;
     
     //Constructor con parametros
     public Contador(float cuenta) {
-        cuenta = this.cuenta;
+        this.cuenta = cuenta;
     }
     
     //Constructor copia
     public Contador(Contador contador_Copia) {
-        contador_Copia.cuenta = this.cuenta;
+        this.cuenta = contador_Copia.cuenta;
     }
     
     public void setCuenta(float cuenta) {
-        this.cuenta = cuenta;
+        cuenta = this.cuenta;
     }
     
     public float getCuenta() {
@@ -23,11 +23,11 @@ public class Contador {
     }
     
     public void aumentarCuenta() {
-        this.cuenta = this.cuenta++;
+        this.cuenta++;
     }
     
     public void decrementarCuenta() {
-        this.cuenta = this.cuenta--;
+        this.cuenta--;
     }
     
 }
