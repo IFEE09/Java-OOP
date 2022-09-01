@@ -6,7 +6,13 @@ public class Contador {
     
     //Constructor con parametros
     public Contador(float cuenta) {
-        this.cuenta = cuenta;
+        boolean esNegativo = false;
+        if (cuenta < 0) {
+            int opcion;
+            esNegativo = true;
+            
+        }
+        
     }
     
     //Constructor copia
