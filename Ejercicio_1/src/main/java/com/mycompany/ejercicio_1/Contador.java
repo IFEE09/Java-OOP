@@ -10,7 +10,6 @@ public class Contador {
         if (cuenta < 0) {
             int opcion;
             esNegativo = true;
-            
         }
         
     }
