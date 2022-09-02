@@ -17,16 +17,15 @@ public class Contador {
             Scanner opcion_Digitada = new Scanner(System.in);
             int opcion = opcion_Digitada.nextInt();
             switch (opcion) {
-                case 1:
+                case 1 -> {
                     this.cuenta = cuenta;
                     System.out.println("La cuenta ha sido creada con éxito con " + this.cuenta + " de saldo. Gracias");
-                    break;
-                case 2:
-                    System.out.println("Error, la cuenta no ha sido creada. Gracias.");
-                    break;
-                default:
+                }
+                case 2 -> System.out.println("Error, la cuenta no ha sido creada. Gracias.");
+                default -> {
                     System.out.println("Opción invalida.");
                     throw new AssertionError();
+                }
             }
         } else {
             this.cuenta = cuenta;
