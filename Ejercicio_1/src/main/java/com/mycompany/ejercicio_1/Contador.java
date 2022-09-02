@@ -7,9 +7,8 @@ public class Contador {
    
     private float cuenta = 0;
     
-    //Constructor con parametros
+    //Método constructor con parametros
     public Contador(float cuenta) {
-        
         if (cuenta < 0) {
             System.out.println("La cuenta está siendo creada en negativos, es correcto?");
             System.out.println("1. Si");
@@ -34,7 +33,7 @@ public class Contador {
         }
     }
     
-    //Constructor copia
+    //Método constructor copia
     public Contador(Contador contador_Copia) {
         this.cuenta = contador_Copia.cuenta;
     }

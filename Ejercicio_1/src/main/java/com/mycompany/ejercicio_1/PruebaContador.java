@@ -1,6 +1,6 @@
 package com.mycompany.ejercicio_1;
 
-public class Ejercicio_1 {
+public class PruebaContador {
 
     public static void main(String[] args) {
         
@@ -17,7 +17,6 @@ public class Ejercicio_1 {
         System.out.println("La cuenta actual de Ruth es " + ruth.getCuenta());
         System.out.println("La cuenta actual de Negativo es " + negativo.getCuenta());
         System.out.println("La cuenta actual de copia es " + copia.getCuenta());
-
 
     }
 }
