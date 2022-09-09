@@ -35,6 +35,7 @@ public class Contador {
     //Método constructor copia
     public Contador(Contador contador_Copia) {
         this.cuenta = contador_Copia.cuenta;
+        /*Espacio nuevo*/
     }
     
     public void setCuenta(float cuenta) {
